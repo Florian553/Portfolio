@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FAVICONS -->
+    <title>PortFolio | Developer</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <h1>Florian Caqueux</h1>
+        <ul class="navigation">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+    <!-- SECTION HERO -->
+    <section class="hero" id="about">
+        <img 
+            src="assets/images/10172.jpg"
+            alt="John DOE"
+            loading="lazy"
+            class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus totam error vitae pariatur explicabo. Enim adipisci velit, corporis tempore quia itaque animi illum repellendus ullam cum, dolore eum possimus.
+                </p>
+        </div>
+    </section>
+    <!-- MORE ABOUT -->
+    <section class="more-about">
+        <h2>Plus d'informations sur moi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus veritatis ipsum, deserunt eum cupiditate architecto unde consectetur minus, totam provident officiis. Cumque nulla vel porro impedit, fugiat eaque quae.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tenetur facilis quos sit nostrum cumque fugiat rem. Doloribus ullam vero, exercitationem quisquam porro enim quam illo qui doloremque modi. Minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident beatae quod illo amet, molestias fugiat quasi, saepe voluptatem officiis autem dolor laboriosam sit, blanditiis hic cumque aliquid! Eius, eligendi tempore.</p>
+    </section>
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <h2 class="skills-header">Mes Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                    src="assets/images/icons8-html-5.svg"
+                    alt="html"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets/images/icons8-css3.svg"
+                    alt="css"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets/images/icons8-javascript.svg"
+                    alt="javascript"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img
+                    src="assets/images/icons8-bootstrap.svg"
+                    alt="bootstrap"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets/images/icons8-react-native.svg"
+                    alt="native"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+                <img
+                    src="assets/images/icons8-git.svg"
+                    alt="git"
+                    loading="lazy"
+                    class="icon icon-card"
+                />
+            </div>
+        </div>
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Mes Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img
+                    src="/assets/images/erproject.png"
+                    alt="1er project"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">1er Project</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, explicabo non quidem suscipit, delectus eum distinctio minima deleniti aperiam nesciunt vero, laborum nobis quia deserunt voluptate quam mollitia ad voluptas.
+                </p>
+                <a href="#" target="_blank" class="project-link">Go voir</a>
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="/assets/images/erproject.png"
+                    alt="2eme project"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">2eme Project</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, explicabo non quidem suscipit, delectus eum distinctio minima deleniti aperiam nesciunt vero, laborum nobis quia deserunt voluptate quam mollitia ad voluptas.
+                </p>
+                <a href="#" target="_blank" class="project-link">Go voir</a>
+            </div>
+            <div class="project-container project-card">
+                <img
+                    src="/assets/images/erproject.png"
+                    alt="3eme project"
+                    loading="lazy"
+                    class="project-pic"
+                />
+                <h3 class="project-title">3eme Project</h3>
+                <p class="project-details">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, explicabo non quidem suscipit, delectus eum distinctio minima deleniti aperiam nesciunt vero, laborum nobis quia deserunt voluptate quam mollitia ad voluptas.
+                </p>
+                <a href="#" target="_blank" class="project-link">Go voir</a>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contactez moi</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xbjqvala" method="POST">
+                    <div class="form-control">
+                        <label for="name">Nom</label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Entrez votre Nom"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Entrez votre Email"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Entrez votre message"
+                            name="message"
+                            class="input-field"
+                            required>
+                        </textarea>
+                    </div>
+                    <input 
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                    />
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- SOCIAL ACOUNTS -->
+    <section class="social" id="social">
+        <div class="socials">
+            <a href="#" target="_blank">
+                <img 
+                    src="assets/icons/icons8-twitter-circled.gif"
+                    alt="twitter"
+                    loading="lazy"
+                    class="socicon"
+                />
+            </a>
+            <a href="#" target="_blank">
+                <img 
+                    src="assets/icons/icons8-instagram.gif"
+                    alt="instagram"
+                    loading="lazy"
+                    class="socicon"
+                />
+            </a>
+            <a href="#" target="_blank">
+                <img 
+                    src="assets/icons/icons8-linkedin-circled.gif"
+                    alt="linkedin"
+                    loading="lazy"
+                    class="socicon"
+                />
+            </a>
+            <a href="#" target="_blank">
+                <img 
+                    src="assets/icons/icons8-github.gif"
+                    alt="github"
+                    loading="lazy"
+                    class="socicon"
+                />
+            </a>
+        </div>
+    </section>
+    <!-- SCROLL TO TOP -->
+    <section class="scroll-up">
+        <em class="scroll-up" id="scroll-up">
+            <img src="assets/Icons/icons8-flèche-haut.gif"
+                class="socicon up-arrow"
+                alt="scroll-up"/>
+
+        </em>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">Florian Caqueux</p>
+    </footer>
+    <!-- SCRIPTS -->
+    <script type="application/javascript"
+    src="assets/JS/scrollup.js"></script>
+    <!-- Ion Icones scripts -->
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.3/dist/ionicons/ionicons.esm.js"
+        >
+    </script>
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.3/dist/ionicons/ionicons.js"
+        >
+    </script>
+
+</body>
+</html>
